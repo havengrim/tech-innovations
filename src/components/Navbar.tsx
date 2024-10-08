@@ -16,12 +16,12 @@ const Navbar = () => {
       <div className="px-6 py-4">
         <nav className="w-full flex justify-between flex-row md:flex-col sm:flex-row lg:flex-row items-center">
           <div className="flex gap-2 items-center">
-            <img src={images.logo} alt="logo" className="h-12 w-auto sm:h-20" />
+            <img src={images.logo} alt="logo" className="h-12 w-auto sm:h-12" />
             <div className="hidden md:block">
               <span className="text-base sm:text-lg text-gray-700 font-semibold uppercase leading-none font-serif">
-                Saint Joseph School of Fairview Inc
+              Tech Innovations Daily
               </span>
-              <p className="text-xs text-gray-700">Innovative Learning with Traditional Values</p>
+              <p className="text-xs text-gray-700">Exploring technology through insightful articles</p>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="">
-                <Button className="bg-[#630000] rounded-full">Enroll Now</Button>
+                <Button className="bg-[#5271ff] rounded-full">Enroll Now</Button>
               </a>
             </li>
           </ul>

@@ -1,30 +1,40 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 import { images } from "@/assets/images";
 import { Card } from "@/components/ui/card";
 
 const News = () => {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
+
   return (
     <div className="bg-gray-50">
       <section className="py-24">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <h2 className="text-3xl sm:text-5xl font-bold leading-tight text-start text-gray-800">
-            Our Latest News and Events
+            Our Latest Tech News and Innovations
           </h2>
           <p className="mb-10 mt-4 text-gray-700">
-            Stay updated with the latest happenings at Saint Joseph School of Fairview Inc. From academic achievements to upcoming events, we are continuously striving to foster a vibrant learning environment that shapes the leaders of tomorrow.
+            Stay updated with the latest developments in technology and innovation. From groundbreaking achievements to upcoming tech events, we are dedicated to fostering a vibrant learning environment that shapes the innovators of tomorrow.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-16">
             {/* News Card 1 */}
-            <Card className="flex flex-col shadow-md hover:shadow-lg transition duration-300">
+            <Card 
+              data-aos="fade-up" // Animation for Card 1
+              className="flex flex-col shadow-md hover:shadow-lg transition duration-300"
+            >
               <img
-                src={images.volleyball} // Volleyball image
-                alt="Exciting Volleyball Match"
+                src={images.slider3}
+                alt="Exciting Tech Workshop"
                 className="w-full h-48 object-cover rounded-t-md"
               />
               <div className="p-4">
-                <h3 className="text-xl font-semibold text-gray-800">Exciting Volleyball Match</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Exciting Tech Workshop</h3>
                 <p className="text-gray-600 mt-2">
-                  Our students showcased their skills during an exhilarating volleyball match last week.
+                  Participants engaged in hands-on activities during our recent tech workshop, showcasing their skills and creativity.
                 </p>
                 <div className="flex items-center text-gray-500 mt-4">
                   <svg
@@ -47,16 +57,19 @@ const News = () => {
             </Card>
 
             {/* News Card 2 */}
-            <Card className="flex flex-col shadow-md hover:shadow-lg transition duration-300">
+            <Card 
+              data-aos="fade-up" // Animation for Card 2
+              className="flex flex-col shadow-md hover:shadow-lg transition duration-300"
+            >
               <img
-                src={images.basketball} // Basketball image
-                alt="Basketball Tournament Highlights"
+                src={images.slider4}
+                alt="Tech Conference Highlights"
                 className="w-full h-48 object-cover rounded-t-md"
               />
               <div className="p-4">
-                <h3 className="text-xl font-semibold text-gray-800">Basketball Tournament Highlights</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Tech Conference Highlights</h3>
                 <p className="text-gray-600 mt-2">
-                  Our basketball team displayed incredible teamwork and spirit during the recent tournament.
+                  Innovators from various fields gathered to share insights and breakthroughs during the recent tech conference.
                 </p>
                 <div className="flex items-center text-gray-500 mt-4">
                   <svg
@@ -79,16 +92,19 @@ const News = () => {
             </Card>
 
             {/* News Card 3 */}
-            <Card className="flex flex-col shadow-md hover:shadow-lg transition duration-300">
+            <Card 
+              data-aos="fade-up" // Animation for Card 3
+              className="flex flex-col shadow-md hover:shadow-lg transition duration-300"
+            >
               <img
-                src={images.chess} // Chess image
-                alt="Chess Club Competition"
+                src={images.slider2}
+                alt="Coding Competition"
                 className="w-full h-48 object-cover rounded-t-md"
               />
               <div className="p-4">
-                <h3 className="text-xl font-semibold text-gray-800">Chess Club Competition</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Coding Competition</h3>
                 <p className="text-gray-600 mt-2">
-                  Our chess club hosted a friendly competition, showcasing the strategic skills of our players.
+                  Talented coders competed in a friendly competition, showcasing their programming skills and creativity.
                 </p>
                 <div className="flex items-center text-gray-500 mt-4">
                   <svg

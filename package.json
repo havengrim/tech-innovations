@@ -1,5 +1,5 @@
 {
-  "name": "saint-joseph",
+  "name": "tech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.446.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@types/aos": "^3.0.7",
     "@types/node": "^22.7.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

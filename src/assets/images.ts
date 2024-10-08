@@ -3,21 +3,19 @@ import slider1 from './slider-1.jpg';
 import slider2 from './slider-2.jpg';
 import slider3 from './slider-3.jpg';
 import slider4 from './slider-4.jpg';
-import slider5 from './slider-5.jpg';
-import slider6 from './slider-6.jpg';
 import about from './aboutus.jpg';
 import preschool from './preschool.jpg';
 import basic from './basic.jpg';
 import graduate from './graduate.jpg';
-import ac1 from './ac-1.jpg';
-import ac2 from './ac-2.jpg';
-import ac3 from './ac-3.jpg';
-import ac4 from './ac-4.jpg';
-import ac5 from './ac-5.jpg';
-import ac6 from './ac-6.jpg';
-import ac7 from './ac-7.jpg';
-import ac8 from './ac-8.jpg';
-import ac9 from './ac-9.jpg';
+import ac1 from './ac1.jpg';
+import ac2 from './ac2.jpg';
+import ac3 from './ac3.jpg';
+import ac4 from './ac4.jpg';
+import ac5 from './ac5.jpg';
+import ac6 from './ac6.jpg';
+import ac7 from './ac7.jpg';
+import ac8 from './ac8.jpg';
+import ac9 from './ac9.jpg';
 import volleyball from './latest-volleyball.jpg'
 import basketball from './basketball.jpg'
 import chess from './chess.jpg'
@@ -28,8 +26,6 @@ export const images = {
   slider2,
   slider3,
   slider4,
-  slider5,
-  slider6,
   about,
   preschool,
   basic,
