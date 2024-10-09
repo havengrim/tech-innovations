@@ -4,9 +4,6 @@ import slider2 from './slider-2.jpg';
 import slider3 from './slider-3.jpg';
 import slider4 from './slider-4.jpg';
 import about from './aboutus.jpg';
-import preschool from './preschool.jpg';
-import basic from './basic.jpg';
-import graduate from './graduate.jpg';
 import ac1 from './ac1.jpg';
 import ac2 from './ac2.jpg';
 import ac3 from './ac3.jpg';
@@ -16,10 +13,6 @@ import ac6 from './ac6.jpg';
 import ac7 from './ac7.jpg';
 import ac8 from './ac8.jpg';
 import ac9 from './ac9.jpg';
-import volleyball from './latest-volleyball.jpg'
-import basketball from './basketball.jpg'
-import chess from './chess.jpg'
-import enroll from './enroll.jpg'
 export const images = {
   logo,
   slider1,
@@ -27,9 +20,6 @@ export const images = {
   slider3,
   slider4,
   about,
-  preschool,
-  basic,
-  graduate,
   ac1,
   ac2,
   ac3,
@@ -39,8 +29,4 @@ export const images = {
   ac7,
   ac8,
   ac9,
-  volleyball,
-  basketball,
-  chess,
-  enroll
 };
